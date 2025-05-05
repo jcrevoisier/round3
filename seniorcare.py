@@ -122,7 +122,7 @@ def extract_capacity(url, cookies, headers):
         logging.error(f"Error extracting capacity: {str(e)}")
         return None
 
-def process_csv_file(input_file='round_2_10000_facilities.csv', output_file='round_2_10000_facilities_final.csv'):
+def process_csv_file(input_file='30000.csv', output_file='round_3_30000_facilities_final.csv'):
     """Process the CSV file and extract capacity for each facility with a source URL."""
     try:
         # Check if input file exists
